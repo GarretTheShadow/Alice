@@ -1,4 +1,9 @@
 <context>
+  <input pattern="* (привет*|здравствуй*) *">
+   <output if="full($UserName)">
+     <item value="Привет, $UserName! Рада снова видеть тебя!"/>
+     <item value="Здравствуй, $UserName! Я уже успела соскучиться..."/>
+    </output>
     <context if="empty">
      <output value="Здрвавствуй, путник. Задавай свой вопрос"/>
     </context>
