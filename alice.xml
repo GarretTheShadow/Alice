@@ -1,5 +1,5 @@
 <context>
-    <context if="empty($UserName)" id="name">
+    <context if="empty">
      <output value="Здрвавствуй, путник. Задавай свой вопрос"/>
     </context>
   <input pattern="* самый прекрасный подарок сделанный людям после мудрости">
